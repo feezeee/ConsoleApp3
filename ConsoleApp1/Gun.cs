@@ -21,7 +21,7 @@ namespace ConsoleApp1
         public int Spread
         {
             get => spread;
-            set => spread = value;
+            set => spread = value / 2;
         }
 
 
@@ -30,4 +30,5 @@ namespace ConsoleApp1
             Console.WriteLine("Стреляю");
         }
     }
+
 }

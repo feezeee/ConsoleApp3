@@ -16,6 +16,14 @@ namespace ConsoleApp1
             set => ammo = value;
         }
 
+        private int spread;
+
+        public int Spread
+        {
+            get => spread;
+            set => spread = value;
+        }
+
 
         public virtual void Fire()
         {

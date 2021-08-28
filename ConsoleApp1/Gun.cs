@@ -21,7 +21,7 @@ namespace ConsoleApp1
         public int Spread
         {
             get => spread;
-            set => spread = value;
+            set => spread = value / 3;
         }
 
 

@@ -11,6 +11,7 @@ namespace boxing_unboxing
         public void Say()
         {
             Console.WriteLine("Hello world");
+            Console.WriteLine("Test");
         }
     }
 }
